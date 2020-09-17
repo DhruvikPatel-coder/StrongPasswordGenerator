@@ -1,3 +1,4 @@
+A simple Password Generator app build using React which sends XHR Request to an Express hosted on Google Cloud Platform.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

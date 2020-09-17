@@ -1,38 +1,90 @@
-.App {
+.center-container {
+  width: 55%;
+  height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(169, 169, 169, 0.4);
+}
+
+.title {
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.output {
+  width: 100%;
+  opacity: 0.8;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.general-div {
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.output-div {
+  margin-bottom: 25px;
+  width: 100%;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-div {
+  margin: 20px auto;
+  width: 80%;
 }
 
-.App-link {
-  color: #61dafb;
+.row {
+  margin-top: 10px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* CSS for slider */
+.slider {
+  -webkit-appearance: none;
+  width: 35%;
+  height: 25px;
+  background: #FFFFFF;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin: auto;
+  margin-right: 0 !important;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #0ebbf0;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #0ebbf0;
+  cursor: pointer;
+}
+
+.my-checkbox {
+  margin: auto;
+  margin-right: 0 !important;
+  height: 20px;
+  width: 20px;
+}
+
+.btn-div {
+  text-align: center !important;
+  margin-top: 20px;
 }
