@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7bfca62a7365c3395e147f14f2841e00",
+    "revision": "647956cf2410c307647953a8f6c8edaf",
     "url": "/StrongPasswordGenerator/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/StrongPasswordGenerator/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "20fe76bc29756880f727",
-    "url": "/StrongPasswordGenerator/static/css/main.f18ec4fb.chunk.css"
+    "revision": "52bf38b514f6fc57bab3",
+    "url": "/StrongPasswordGenerator/static/css/main.1a790bc6.chunk.css"
   },
   {
     "revision": "489605f3546daa76e7d5",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/StrongPasswordGenerator/static/js/2.85d93aad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20fe76bc29756880f727",
-    "url": "/StrongPasswordGenerator/static/js/main.ae90d0da.chunk.js"
+    "revision": "52bf38b514f6fc57bab3",
+    "url": "/StrongPasswordGenerator/static/js/main.ff8047e0.chunk.js"
   },
   {
     "revision": "5a673bd2a3e647771103",
