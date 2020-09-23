@@ -30,7 +30,7 @@ export default function FormContainer() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        axios.post(`https://my-project-9894-281203.nn.r.appspot.com/passwords`, { state })
+        axios.post(`https://my-second-app-dot-my-project-9894-281203.nn.r.appspot.com/passwords`, { state })
             .then(res => {
                 let data = res.data
                 let temp = {};
@@ -63,7 +63,7 @@ export default function FormContainer() {
                 <Output value={state.output} />
             </div>
             <div className="row">
-                <TextField value={"Length of password { " + state.length + " }: "} />
+                <TextField value={"Password length { " + state.length + " }: "} />
                 <Slider handleChange={handleSliderChange} value={state.length} />
             </div>
 

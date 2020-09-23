@@ -1,10 +1,5 @@
 .center-container {
-  width: 55%;
-  height: 500px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: auto !important;
   background-color: rgb(169, 169, 169, 0.4);
 }
 
@@ -55,6 +50,12 @@
   transition: opacity .2s;
   margin: auto;
   margin-right: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    width: 100%;
+  }
 }
 
 .slider:hover {
